@@ -9,11 +9,11 @@
 
 ## <a id="general-info">⭐ General info</a>
 
-An interactive web application for searching movies by title using the OMDb API.
+Discover a selection of unique coffees with different roast types and origins. Filter available drinks and find your perfect cup.
 
 ## <a id="Illustrations">🖼️ Preview</a>
 
-<a style="font-size: 24px">https://movie-search-app-beige-alpha.vercel.app/</a>
+<a style="font-size: 24px">https://alexandrlebedenko.github.io/Simple-Coffee-Listing/</a>
 
 ## <a id="notice">🧾 Notice</a>
 
