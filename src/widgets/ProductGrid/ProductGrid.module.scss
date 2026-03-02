@@ -5,3 +5,11 @@
   column-gap: 2rem;
   row-gap: 4rem;
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 860px) {
+  .cardsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+>>>>>>> 077d1e3 (feat: add responsive layout)

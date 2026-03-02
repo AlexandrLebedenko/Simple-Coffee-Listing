@@ -5,5 +5,15 @@
   background-color: $color-black;
   background-image: url("@/assets/backgrounds/bg-cafe.jpg");
   background-repeat: no-repeat;
+<<<<<<< HEAD
   padding-top: 160px;
+=======
+  background-size: contain;
+  padding: 10rem 2.5rem;
+}
+@media (max-width: 890px) {
+  .wrapper {
+    padding: 10rem 2.5rem;
+  }
+>>>>>>> 077d1e3 (feat: add responsive layout)
 }

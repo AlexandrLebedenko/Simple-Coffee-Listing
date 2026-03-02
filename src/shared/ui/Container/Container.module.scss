@@ -8,3 +8,16 @@
   max-width: fit-content;
   margin: auto;
 }
+<<<<<<< HEAD
+=======
+@media (min-width: 640px) and (max-width: 1024px) {
+  .container {
+    padding: 5rem 5rem;
+  }
+}
+@media (max-width: 890px) {
+  .container {
+    padding: 5rem 2.5rem;
+  }
+}
+>>>>>>> 077d1e3 (feat: add responsive layout)
