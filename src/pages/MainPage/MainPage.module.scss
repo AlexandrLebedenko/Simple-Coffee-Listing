@@ -1,0 +1,9 @@
+@use "@/app/styles/variables" as *;
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: $color-black;
+  background-image: url("@/assets/backgrounds/bg-cafe.jpg");
+  background-repeat: no-repeat;
+  padding-top: 160px;
+}

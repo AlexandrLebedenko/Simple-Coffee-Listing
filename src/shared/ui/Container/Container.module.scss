@@ -1,0 +1,10 @@
+@use "@/app/styles/variables" as *;
+.container {
+  position: relative;
+  z-index: 2;
+  background-color: $color-light-black;
+  padding: 5rem 7.75rem;
+  border-radius: 0.75rem;
+  max-width: fit-content;
+  margin: auto;
+}

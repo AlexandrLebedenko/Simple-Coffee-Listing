@@ -1,0 +1,49 @@
+@use "sass:map";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+$color-white: #fef7ee;
+$color-light-black: #1b1d1f;
+$color-black: #111315;
+$color-gray: #6f757c;
+$color-dark-gray: #4d5562;
+$color-yellow: #f6c768;
+$color-mint-green: #bee3cc;
+$color-brown: #302522;
+$color-coral: #ed735d;
+
+$text-styles: (
+  heading-text: (
+    font-size: 2rem,
+    font-weight: 600,
+    color: $color-white,
+  ),
+  body-text: (
+    font-size: 1rem,
+    font-weight: 500,
+    color: $color-gray,
+  ),
+  label-text: (
+    font-size: 0.875rem,
+    font-weight: 400,
+    color: $color-white,
+  ),
+  price-text: (
+    font-size: 0.75rem,
+    font-weight: 600,
+    color: $color-black,
+  ),
+  small-text: (
+    font-size: 0.625rem,
+    font-weight: 700,
+    color: $color-black,
+  ),
+);
+
+@mixin text-format($type) {
+  $styles: map.get($text-styles, $type);
+
+  font-family: "DM Sans", sans-serif;
+  font-size: map.get($styles, font-size);
+  font-weight: map.get($styles, font-weight);
+  color: map.get($styles, color);
+}

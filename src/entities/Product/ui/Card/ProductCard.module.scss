@@ -1,0 +1,54 @@
+@use "@/app/styles/variables" as *;
+.card {
+  max-width: 16.3125rem;
+  position: relative;
+}
+.cardImage {
+  object-fit: contain;
+  border-radius: 1rem;
+  margin-bottom: 0.625rem;
+}
+.popular {
+  @include text-format(small-text);
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background-color: $color-yellow;
+  border-radius: 0.75rem;
+}
+.cardHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.cardTitle {
+  @include text-format(body-text);
+  color: $color-white;
+}
+.cardPrice {
+  @include text-format(price-text);
+  background-color: $color-mint-green;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+.cardRatingRow {
+  @include text-format(label-text);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.votesCount {
+  font-weight: 700;
+  color: $color-dark-gray;
+}
+.soldOut {
+  font-weight: 700;
+  color: $color-coral;
+  margin-left: auto;
+}
+.noRating {
+  font-weight: 600;
+  color: $color-dark-gray;
+}
